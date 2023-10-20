@@ -22,6 +22,7 @@ const Tables = ({ orders }) => {
     if (!completedList.includes(orderId)) {
         setCompleted(completed + 1);
         setCompletedList([...completedList, e.target.value]);
+    }
   };
 
   const filteredOrders =
